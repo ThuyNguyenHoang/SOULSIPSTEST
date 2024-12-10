@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Reset Style */
+*{ margin: 0; padding: 0; box-sizing: border-box}
+
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px; background-color:#283618; color: antiquewhite}
+
+/* Header Banner */
+header a img{width: 100%; height: auto;display: block}
+
+/* Navi Bar*/
+nav {background-color:#283618; padding: 10px 20px; margin: 10px; text-transform: uppercase; }
+.navbar{list-style: none; display: flex; justify-content: center;column-gap: 60px}
+.navbar li{display: inline-block}
+.navbar a{ text-decoration: none ; color:beige;font-weight: bold;
+	transition: color 0.3s ease, background-color 0.3s ease; padding: 10px 20px; align-content:center}
+.navbar a:hover{color:#283618; background-color: antiquewhite; border-radius: 5px}
+/* Contact Section */
+.contact-section {
+    padding: 20px; background-color: #fff; color: #283618;}
+.contact-section h2 { text-align-last: center; font-size: 30px; text-transform: uppercase ; margin-bottom: 20px;}
+.contact-container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; text-transform: uppercase }
+.contact-form { flex: 1 1 300px; padding: 20px; border: 1px solid #BC6C25 ; border-radius: 10px; background-color: #f9f9f9;}
+.contact-form label { display: block; margin-bottom: 5px; font-weight: bold;}
+.contact-form input,
+.contact-form textarea { width:100%; padding: 10px; margin-bottom: 15px; border: 1px solid #BC6C25; border-radius: 5px; font-style: italic}
+.contact-form .btn-submit { display: block; width: 100%; background-color: #283618; color: antiquewhite ; padding: 10px; border: none;
+    border-radius: 5px; cursor: pointer; font-size: 16px ;}
+.contact-form .btn-submit:hover { background-color: #283618;}
+.office { display: block; gap: 20px; margin-bottom: 10px; align-items: flex-start; padding-left:10px; width:100%; }
+.office iframe { width: 100%; height: 300px; border: none; }
+.office-info { flex: 1 1 300px; }
+.office h3 { font-size: 20px; margin-bottom: 10px;margin-top: 10px;padding: 10px;text-align: center; text-transform:capitalize;border-radius: 10px; box-sizing: border-box; border: 1px solid #BC6C25;background-color: #283618; color:antiquewhite}
+.office p { font-size: 14px; margin-bottom: 10px;padding: 10px;text-transform: uppercase  ; border-radius: 10px; box-sizing: border-box; border: 1px solid #BC6C25;background-color: #283618; color:antiquewhite; text-align: center;}
+/* Footer */
+footer { text-align: center;text-transform: uppercase; padding: 16px;box-sizing: border-box; border: 3px solid #BC6C25;background-color: #283618; color:antiquewhite ;margin-top: 20px; }
